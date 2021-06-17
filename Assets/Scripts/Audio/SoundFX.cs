@@ -44,11 +44,13 @@ public class SoundFX
 	[Range(0.1f, 3f)]
 	public float pitch = 1f; // default to 1f
 
+	[HideInInspector]
 	/// <summary>
 	///		The length of the audio clip 
 	/// </summary>
 	public float length;
 
+	[HideInInspector]
 	/// <summary>
 	///		The Maximum of the audio clip 
 	/// </summary>

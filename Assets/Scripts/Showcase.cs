@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 #endregion
 
 
@@ -11,36 +12,71 @@ using UnityEngine;
 public class Showcase : MonoBehaviour
 {
 
-	#region Public Variables
+	public enum SnowStates { Active, InActive };
 
-	[Range(0.01f, 0.1f)]
-	public float snowSpeed;
+	public static Showcase instance;
+	public static UnityEvent ToggleSnowEvent = new UnityEvent();
 
+	public ParticleSystem SnowParticleSystem;
 
-	#endregion
+	[Range(0.01f, 0.1f)] public float snowSpeed;
 
 	#region Private Variables
 
-	private float m_SnowLevelValue = 0;
-	private bool m_ShouldStartSnowing = false;
+	[SerializeField] private float m_SnowLevelValue = 0;
+	[SerializeField] private bool m_SnowfallEnabled = false;
 
-	#endregion
 
-	#region Unity References
+	public SnowStates currentSnowState
+	{ 
+		get 
+		{
+			if (m_SnowfallEnabled)
+				return SnowStates.Active;
+			else
+				return SnowStates.InActive;
+		}
+	}
 
-	private void Start()
+
+#endregion
+
+#region Unity References
+
+private void OnEnable()
 	{
-		m_ShouldStartSnowing = true;
+		if (instance != null && instance != this)
+			Destroy(instance.gameObject);
+
+		instance = this;
+
+		m_SnowfallEnabled = false;
+		m_SnowLevelValue = 0;
+		
+		if (SnowParticleSystem.isPlaying)
+		{
+			SnowParticleSystem.Stop();
+		}
 
 
-		AudioManager.PlaySound(SoundEffect.BackgroundAmbience);
+		ToggleSnowEvent.AddListener(ToggleSnow);
+	}
+
+	private void OnDisable()
+	{
+		ToggleSnowEvent.RemoveListener(ToggleSnow);
 	}
 
 	private void Update()
 	{
+		if (!m_SnowfallEnabled)
+		{
+			return;
+		}
 		
-		if (m_ShouldStartSnowing)
+		if (m_SnowfallEnabled)
 		{ 
+
 			if (m_SnowLevelValue < 1f)
 			{
 				Shader.SetGlobalFloat("_SnowLevel", m_SnowLevelValue);
@@ -49,15 +85,27 @@ public class Showcase : MonoBehaviour
 		}
 	}
 
-	#endregion
-
-	#region Public Methods
 
 
-	#endregion
+	/// <summary>
+	///		Toggles displaying the snowfall 
+	/// </summary>
+	/// <param name="ShouldEnableSnowfall"></param>
+	private void ToggleSnow()
+	{
+		Debug.Log("Toggling Snow Enabled: " + m_SnowfallEnabled);
 
-	#region Private Methods
+		if (currentSnowState.Equals(SnowStates.Active))
+		{
+			m_SnowfallEnabled = false;
+		}
+		else if (currentSnowState.Equals(SnowStates.InActive))
+		{
+			m_SnowfallEnabled = true;
+		}
 
+		Debug.Log("Snowfall Enabled? " + m_SnowfallEnabled);
+	}
 
 	#endregion
 

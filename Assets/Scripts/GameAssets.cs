@@ -12,54 +12,43 @@ using System.Reflection;
 public class GameAssets : MonoBehaviour 
 {
 
-	#region Static  
-	
 	/// <summary>
 	///		Reference to the static Game Assets Instance 
 	/// </summary>
-	public static GameAssets Assets;
+	public static GameAssets instance;
 
-	#endregion
 
 	#region Public Variables 
 
 	[Header("Audio")]
+	
 	/// <summary>
 	///  Reference to the Audio Mixer Group 
 	/// </summary>
-	public AudioMixerGroup m_AudioMixer;
+	[SerializeField] protected AudioMixerGroup m_AudioMixer;
 
 	/// <summary>
 	///		An array of game sound effect assets 
 	/// </summary>
-	public SoundFX[] GameSoundEffects;
+	[SerializeField] protected SoundFX[] m_SoundEffects;
 
+	/// <summary>
+	///		Returns the sound effects array 
+	/// </summary>
+	public SoundFX[] SoundEffects => m_SoundEffects;
 
 	#endregion
 
 	#region Unity References 
 
-	private void Awake()
+	private void OnEnable()
 	{
+		if (instance != null && instance != this)
+		Destroy(instance.gameObject);
+		
+		instance = this;
 
-		if (Assets != null)
-		{
-			Destroy(gameObject);
-		}
-		else
-		{
-			Assets = this;
-			DontDestroyOnLoad(gameObject);
-		}
-
-		if (GameSoundEffects.Length > 0)
-		{ 
-			AudioManager.SetupSounds(GameSoundEffects, m_AudioMixer);
-		}
-		else
-		{
-			Debug.LogWarning("Game Sound Effects Length is less than 0!");
-		}
+		AudioManager.SetupSounds(m_SoundEffects, m_AudioMixer);
 	}
 
 	#endregion
