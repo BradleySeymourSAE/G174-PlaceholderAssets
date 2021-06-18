@@ -12,7 +12,16 @@ using UnityEngine.Audio;
 /// </summary>
 public enum SoundEffect
 {
-	BackgroundAmbience
+	// Music 
+	BackgroundMusic,
+	Ambience,
+	// Game 
+	Footsteps,
+	// UI 
+	GUI_Selected,
+	GUI_Move,
+	GUI_MenuTransition,
+	GUI_Confirmed
 }
 
 /// <summary>
@@ -21,8 +30,14 @@ public enum SoundEffect
 public static class AudioManager
 { 
 
+	/// <summary>
+	///		Reference to an Audio Mixer Group 
+	/// </summary>
 	private static AudioMixerGroup m_AudioMixer;
 
+	/// <summary>
+	///		Reference to the Game Assets Script 
+	/// </summary>
 	private static GameAssets m_GameAssetsReference;
 
 	public static void SetupSounds(SoundFX[] Sounds, AudioMixerGroup Mixer)
@@ -69,6 +84,7 @@ public static class AudioManager
 		}
 	}
 
+	public static bool IsPlayingSound(SoundEffect p_SoundEffect) => GetSoundEffect(p_SoundEffect).source.isPlaying == true;
 
 	/// <summary>
 	///		Plays a Sound Effect using the Sound Category Type 
@@ -76,26 +92,19 @@ public static class AudioManager
 	/// <param name="p_SoundCategory"></param>
 	public static void PlaySound(SoundEffect p_SoundCategory)
 	{
-		// Gets the sound effect using the sound category name 
 		SoundFX sound = GetSoundEffect(p_SoundCategory);
-
-		// Check if the sound is null 
 		if (sound == null)
 		{
-			// Log a warning if we could not find the sound effect 
 			Debug.LogWarning("[AudioManager.PlaySound]: " + "Could not find " + p_SoundCategory + " sound effect!");
 			return;
 		}
 
-		// Set the sound effect's volume, pitch and other values that change here 
 		sound.source.volume = sound.volume;
 		sound.source.playOnAwake = sound.awake;
 		sound.source.loop = sound.loop;
 		sound.source.pitch = sound.pitch;
-	
 		sound.source.Play();
 	}
-
 
 	/// <summary>
 	///		Get the SoundFX by the SoundCategory - Which is basically the sound's name 
@@ -104,18 +113,11 @@ public static class AudioManager
 	/// <returns></returns>
 	private static SoundFX GetSoundEffect(SoundEffect p_SoundCategory)
 	{
-		// Loop through the game assets sound effects array 
-		foreach (SoundFX s_GameSoundEffect in GameAssets.Assets.GameSoundEffects)
+		foreach (SoundFX s_GameSoundEffect in GameAssets.instance.SoundEffects)
 		{
-			// Check if the sound effect category name is the same as the one we are searching for 
 			if (s_GameSoundEffect.Category == p_SoundCategory)
-			{
-				// If it is, return the sound effect 
 				return s_GameSoundEffect;
-			}
 		}
-
-		Debug.LogWarning("Sound " + p_SoundCategory + " could not be found!");
 		return null;
 	}
 
