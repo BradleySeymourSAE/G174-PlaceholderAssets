@@ -53,6 +53,9 @@ public class Showcase : MonoBehaviour
 
 	[SerializeField]
 	protected Vector3 m_EnvironmentalOffsetPosition = Vector3.zero;
+	[SerializeField]
+	protected Vector3 m_SnowfallSpawnPosition = new Vector3(0, 20, 0);
+
 
 	[SerializeField] 
 	private float m_SnowLevelValue = 0;
@@ -84,17 +87,18 @@ public class Showcase : MonoBehaviour
 		m_EnvironmentChanged = false;
 		m_EnvironmentalOffsetPosition.y -= elementOffsetYPosition;
 		
-		GameObject s_SnowfallPrefab = Instantiate(snowSystemPrefab, new Vector3(0, 40, 0), Quaternion.identity);
+		GameObject s_SnowfallPrefab = Instantiate(snowSystemPrefab, m_SnowfallSpawnPosition, Quaternion.identity);
 
 		for (var i = 0; i < s_SnowfallPrefab.GetComponentsInChildren<ParticleSystem>().Length; i++)
 		{ 
 			m_SnowParticleSystems = s_SnowfallPrefab.GetComponentsInChildren<ParticleSystem>();
-
+			
 			ParticleSystem s_ParticleSystem = m_SnowParticleSystems[i];
 
 			if (s_ParticleSystem.isPlaying)
 				s_ParticleSystem.Stop();
 		}
+
 
 		ToggleSnowEvent.AddListener(ToggleSnow);
 		ToggleEnvironmentChange.AddListener(() =>
@@ -143,6 +147,11 @@ public class Showcase : MonoBehaviour
 		
 		if (m_SnowfallEnabled)
 		{
+			if (!AudioManager.IsPlayingSound(SoundEffect.Ambience))
+			{ 
+				AudioManager.PlaySound(SoundEffect.Ambience);
+			}
+
 			if (m_SnowLevelValue <= 1f)
 			{
 				m_SnowLevelValue += Time.deltaTime * snowSpeed;
@@ -176,7 +185,8 @@ public class Showcase : MonoBehaviour
 
 				for (int i = 0; i < m_EnvironmentSpawnPositions.Count; i++)
 				{ 
-					Vector3 s_SpawnPosition = m_EnvironmentSpawnPositions[Random.Range(1, m_EnvironmentSpawnPositions.Count / 2)].position;
+					int index = Random.Range(0, Mathf.RoundToInt(m_EnvironmentSpawnPositions.Count / 2));
+					Vector3 s_SpawnPosition = m_EnvironmentSpawnPositions[index].position;
 
 					s_SpawnPosition += m_EnvironmentalOffsetPosition;
 

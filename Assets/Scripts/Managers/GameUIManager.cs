@@ -14,6 +14,7 @@ public class GameUIManager : MonoBehaviour
 {
     public static GameUIManager instance;
     public MainMenu mainMenuScreen;
+    public CreditsScreen creditsMenuScreen;
     public LoadingScreen loadingScreen;
     private List<BaseUIScreen> m_AllUIScreens = new List<BaseUIScreen>();
 
@@ -28,7 +29,6 @@ public class GameUIManager : MonoBehaviour
 
      
         LoadingManager.MainScreenLoadingEvent.AddListener(() => EnableScreen(mainMenuScreen));
-      //  LoadingManager.CreditsScreenLoadingEvent.AddListener(() => EnableScreen(creditsMenuScreen));
         LoadingManager.LoadingEvent.AddListener(() => EnableScreen(loadingScreen));
     }
 
@@ -71,9 +71,19 @@ public class GameUIManager : MonoBehaviour
     private void AddAllGameUIScreens()
     {
         m_AllUIScreens.Add(mainMenuScreen);
+        m_AllUIScreens.Add(creditsMenuScreen);
         m_AllUIScreens.Add(loadingScreen);
     }
     
+    public void DisplayCredits(bool ShouldDisplayCreditsScreen)
+	{
+        if (ShouldDisplayCreditsScreen)
+            EnableScreen(creditsMenuScreen);
+        else
+            EnableScreen(mainMenuScreen);
+
+        AudioManager.PlaySound(SoundEffect.GUI_MenuTransition);
+	}
     
 
     [System.Serializable]
@@ -127,15 +137,28 @@ public class GameUIManager : MonoBehaviour
         public override void SetUpButtons()
         {
             UI.SetupButton(StartGameButton, () => GameManager.StartGameEvent?.Invoke(), GameUI.MainMenu_StartButton);
-            UI.SetupButton(CreditsMenuButton, () => ToggleDisplays(), GameUI.MainMenu_CreditsButton);
+            UI.SetupButton(CreditsMenuButton, () => GameUIManager.instance.DisplayCredits(true), GameUI.MainMenu_CreditsButton);
             UI.SetupButton(QuitButton, () => Application.Quit(), GameUI.MainMenu_QuitButton);
         }
-
-        private void ToggleDisplays()
-		{
-            Debug.Log("TODO!");
-		}
     }
+
+
+    /// <summary>
+    ///     Credits Menu UI 
+    /// </summary>
+    [System.Serializable]
+    public class CreditsScreen : BaseUIScreen
+	{
+        public TMP_Text creditsTitle;
+        public TMP_Text creditsTagline;
+        public Button ReturnButton;
+
+
+		public override void SetUpButtons()
+		{
+			UI.SetupButton(ReturnButton, () => GameUIManager.instance.DisplayCredits(false), GameUI.CreditsMenu_ReturnButton);
+		}
+	}
 
 
 
@@ -164,8 +187,8 @@ public class GameUIManager : MonoBehaviour
         public const string MainMenu_CreditsButton = "Credits";
         public const string MainMenu_QuitButton = "Leave";
 
-        public const string CreditsMenu_Title = "Credits";
-        public const string CreditsMenu_Subtitle = "21T2 - G174, Bradley Seymour";
+        public const string CreditsMenu_Title = "Lucid Alpine Experience - Credits";
+		public const string CreditsMenu_Subtitle = "G174 Game Asset Creation \n\n" + "Created by Bradley Seymour 21T2";
         public const string CreditsMenu_ReturnButton = "Return";
 
 

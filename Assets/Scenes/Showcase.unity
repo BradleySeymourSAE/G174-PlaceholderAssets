@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 9715045}
   - component: {fileID: 9715047}
   - component: {fileID: 9715046}
+  - component: {fileID: 9715048}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -206,6 +207,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9715044}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &9715048
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9715044}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &30553709
 GameObject:
   m_ObjectHideFlags: 0
@@ -217,6 +232,7 @@ GameObject:
   - component: {fileID: 30553710}
   - component: {fileID: 30553712}
   - component: {fileID: 30553711}
+  - component: {fileID: 30553713}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -288,6 +304,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 30553709}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &30553713
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30553709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &52270588
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,6 +329,7 @@ GameObject:
   - component: {fileID: 52270589}
   - component: {fileID: 52270591}
   - component: {fileID: 52270590}
+  - component: {fileID: 52270592}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -371,6 +402,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52270588}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &52270592
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52270588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &55885312
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,6 +427,7 @@ GameObject:
   - component: {fileID: 55885313}
   - component: {fileID: 55885315}
   - component: {fileID: 55885314}
+  - component: {fileID: 55885316}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -454,6 +500,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55885312}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &55885316
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55885312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &94500339
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,6 +525,7 @@ GameObject:
   - component: {fileID: 94500340}
   - component: {fileID: 94500342}
   - component: {fileID: 94500341}
+  - component: {fileID: 94500343}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -537,6 +598,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94500339}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &94500343
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94500339}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &140075572
 GameObject:
   m_ObjectHideFlags: 0
@@ -548,6 +623,7 @@ GameObject:
   - component: {fileID: 140075573}
   - component: {fileID: 140075575}
   - component: {fileID: 140075574}
+  - component: {fileID: 140075576}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -619,6 +695,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 140075572}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &140075576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140075572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &153033303
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +720,7 @@ GameObject:
   - component: {fileID: 153033304}
   - component: {fileID: 153033306}
   - component: {fileID: 153033305}
+  - component: {fileID: 153033307}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -701,6 +792,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 153033303}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &153033307
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153033303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &164424075
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +817,7 @@ GameObject:
   - component: {fileID: 164424076}
   - component: {fileID: 164424078}
   - component: {fileID: 164424077}
+  - component: {fileID: 164424079}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -784,6 +890,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164424075}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &164424079
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164424075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &167768536
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +915,7 @@ GameObject:
   - component: {fileID: 167768537}
   - component: {fileID: 167768539}
   - component: {fileID: 167768538}
+  - component: {fileID: 167768540}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -809,13 +930,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167768536}
-  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 14.84, y: 3.4628823, z: -10.02}
+  m_LocalRotation: {x: 0.030141477, y: 0.9995457, z: -0.0000000018626454, w: 0}
+  m_LocalPosition: {x: 14.84, y: 4.6, z: 5.9}
   m_LocalScale: {x: 1.2149706, y: 1, z: 1.1441292}
   m_Children: []
   m_Father: {fileID: 1679026005}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 3.454}
 --- !u!23 &167768538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -867,6 +988,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 167768536}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &167768540
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167768536}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &169050222
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,6 +1013,7 @@ GameObject:
   - component: {fileID: 169050223}
   - component: {fileID: 169050225}
   - component: {fileID: 169050224}
+  - component: {fileID: 169050226}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -949,6 +1085,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 169050222}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &169050226
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169050222}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &186086408
 GameObject:
   m_ObjectHideFlags: 0
@@ -960,6 +1110,7 @@ GameObject:
   - component: {fileID: 186086409}
   - component: {fileID: 186086411}
   - component: {fileID: 186086410}
+  - component: {fileID: 186086412}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -1031,6 +1182,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 186086408}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &186086412
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186086408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &222288744
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1207,7 @@ GameObject:
   - component: {fileID: 222288745}
   - component: {fileID: 222288747}
   - component: {fileID: 222288746}
+  - component: {fileID: 222288748}
   m_Layer: 0
   m_Name: PineTreeLarge (1)
   m_TagString: AlpineTree
@@ -1113,6 +1279,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 222288744}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &222288748
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222288744}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &235243219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1304,7 @@ GameObject:
   - component: {fileID: 235243220}
   - component: {fileID: 235243222}
   - component: {fileID: 235243221}
+  - component: {fileID: 235243223}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -1196,6 +1377,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 235243219}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &235243223
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 235243219}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &241495793
 GameObject:
   m_ObjectHideFlags: 0
@@ -1207,6 +1402,7 @@ GameObject:
   - component: {fileID: 241495794}
   - component: {fileID: 241495796}
   - component: {fileID: 241495795}
+  - component: {fileID: 241495797}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -1278,6 +1474,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241495793}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &241495797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241495793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &286421665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1499,7 @@ GameObject:
   - component: {fileID: 286421666}
   - component: {fileID: 286421668}
   - component: {fileID: 286421667}
+  - component: {fileID: 286421669}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -1360,6 +1571,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286421665}
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &286421669
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286421665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &311593756
 GameObject:
@@ -1442,6 +1667,7 @@ GameObject:
   - component: {fileID: 314973282}
   - component: {fileID: 314973284}
   - component: {fileID: 314973283}
+  - component: {fileID: 314973285}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -1513,6 +1739,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314973281}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &314973285
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314973281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &321224899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,6 +1764,7 @@ GameObject:
   - component: {fileID: 321224900}
   - component: {fileID: 321224902}
   - component: {fileID: 321224901}
+  - component: {fileID: 321224903}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -1595,6 +1836,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321224899}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &321224903
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 321224899}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &377920639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,6 +1861,7 @@ GameObject:
   - component: {fileID: 377920640}
   - component: {fileID: 377920642}
   - component: {fileID: 377920641}
+  - component: {fileID: 377920643}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -1677,6 +1933,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377920639}
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &377920643
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377920639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &378850487
 GameObject:
@@ -1799,6 +2069,7 @@ GameObject:
   - component: {fileID: 426043768}
   - component: {fileID: 426043770}
   - component: {fileID: 426043769}
+  - component: {fileID: 426043771}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -1871,6 +2142,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426043767}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &426043771
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426043767}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &430492169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,6 +2167,7 @@ GameObject:
   - component: {fileID: 430492170}
   - component: {fileID: 430492172}
   - component: {fileID: 430492171}
+  - component: {fileID: 430492173}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -1953,6 +2239,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430492169}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &430492173
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430492169}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &439421108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,6 +2264,7 @@ GameObject:
   - component: {fileID: 439421109}
   - component: {fileID: 439421111}
   - component: {fileID: 439421110}
+  - component: {fileID: 439421112}
   m_Layer: 0
   m_Name: SnowyRock (4)
   m_TagString: Untagged
@@ -2035,6 +2336,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439421108}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &439421112
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439421108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &449169152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2046,6 +2361,7 @@ GameObject:
   - component: {fileID: 449169153}
   - component: {fileID: 449169155}
   - component: {fileID: 449169154}
+  - component: {fileID: 449169156}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -2117,6 +2433,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449169152}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &449169156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 449169152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &479194149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2128,6 +2458,7 @@ GameObject:
   - component: {fileID: 479194150}
   - component: {fileID: 479194152}
   - component: {fileID: 479194151}
+  - component: {fileID: 479194153}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -2200,6 +2531,117 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 479194149}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &479194153
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479194149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!1 &481109642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481109643}
+  - component: {fileID: 481109645}
+  - component: {fileID: 481109644}
+  - component: {fileID: 481109646}
+  m_Layer: 0
+  m_Name: SnowyRock (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &481109643
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481109642}
+  m_LocalRotation: {x: -0.019981334, y: 0.4489364, z: 0.09663093, w: -0.8880987}
+  m_LocalPosition: {x: 2, y: 1.3, z: 2.9}
+  m_LocalScale: {x: 4.891881, y: 2.6582048, z: 3.5017045}
+  m_Children: []
+  m_Father: {fileID: 7752977581965713090}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: -2.939, y: 306.648, z: -10.943}
+--- !u!23 &481109644
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481109642}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f5d5cafe31c7e6d489ba5a6aae8b4989, type: 2}
+  - {fileID: 2100000, guid: bf14d197f136da64aac4f1792ea22dee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &481109645
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481109642}
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &481109646
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481109642}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &497916570
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,6 +2686,7 @@ GameObject:
   - component: {fileID: 504736585}
   - component: {fileID: 504736587}
   - component: {fileID: 504736586}
+  - component: {fileID: 504736588}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -2316,6 +2759,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504736584}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &504736588
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504736584}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &525928963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,6 +2821,7 @@ GameObject:
   - component: {fileID: 532103732}
   - component: {fileID: 532103734}
   - component: {fileID: 532103733}
+  - component: {fileID: 532103735}
   m_Layer: 0
   m_Name: SnowyRock (1)
   m_TagString: Untagged
@@ -2435,6 +2893,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 532103731}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &532103735
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 532103731}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &534900152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,6 +2918,7 @@ GameObject:
   - component: {fileID: 534900153}
   - component: {fileID: 534900155}
   - component: {fileID: 534900154}
+  - component: {fileID: 534900156}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -2518,6 +2991,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534900152}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &534900156
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534900152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &556551455
 GameObject:
   m_ObjectHideFlags: 0
@@ -2529,6 +3016,7 @@ GameObject:
   - component: {fileID: 556551456}
   - component: {fileID: 556551458}
   - component: {fileID: 556551457}
+  - component: {fileID: 556551459}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -2600,6 +3088,115 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 556551455}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &556551459
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 556551455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!1 &564255922
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 564255923}
+  - component: {fileID: 564255926}
+  - component: {fileID: 564255925}
+  - component: {fileID: 564255924}
+  m_Layer: 0
+  m_Name: ARandomObjectHowDidIGetHere?
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564255923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564255922}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1.5, z: 0.001}
+  m_Children: []
+  m_Father: {fileID: 581478068}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &564255924
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564255922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &564255925
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564255922}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b4b4a58f652d6da4caa690b9d325f33d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &564255926
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 564255922}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &566799018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2611,6 +3208,7 @@ GameObject:
   - component: {fileID: 566799019}
   - component: {fileID: 566799021}
   - component: {fileID: 566799020}
+  - component: {fileID: 566799022}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -2682,6 +3280,51 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566799018}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &566799022
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566799018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!1 &581478067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 581478068}
+  m_Layer: 0
+  m_Name: NotHidden
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &581478068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581478067}
+  m_LocalRotation: {x: 0.0033395085, y: 0.92384434, z: -0.008062287, w: 0.38266882}
+  m_LocalPosition: {x: 49.571, y: 1.649, z: -4.128}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children:
+  - {fileID: 564255923}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 1, y: 135, z: 0}
 --- !u!1 &592615072
 GameObject:
   m_ObjectHideFlags: 0
@@ -2693,6 +3336,7 @@ GameObject:
   - component: {fileID: 592615073}
   - component: {fileID: 592615075}
   - component: {fileID: 592615074}
+  - component: {fileID: 592615076}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -2765,6 +3409,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592615072}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &592615076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592615072}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &599599436
 GameObject:
   m_ObjectHideFlags: 0
@@ -2776,6 +3434,7 @@ GameObject:
   - component: {fileID: 599599437}
   - component: {fileID: 599599439}
   - component: {fileID: 599599438}
+  - component: {fileID: 599599440}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -2848,6 +3507,116 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 599599436}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &599599440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599599436}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!1 &615023235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615023236}
+  - component: {fileID: 615023238}
+  - component: {fileID: 615023237}
+  - component: {fileID: 615023239}
+  m_Layer: 0
+  m_Name: Rock (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615023236
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615023235}
+  m_LocalRotation: {x: -0.07257836, y: 0.92605877, z: 0.25258407, w: -0.27082995}
+  m_LocalPosition: {x: -0.9, y: 0.8, z: 5}
+  m_LocalScale: {x: 3.6323013, y: 3.6323013, z: 3.6323013}
+  m_Children: []
+  m_Father: {fileID: 7752977581965713090}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: -25.373, y: 216.565, z: -17.469}
+--- !u!23 &615023237
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615023235}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: bf14d197f136da64aac4f1792ea22dee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &615023238
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615023235}
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &615023239
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615023235}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &622655343
 GameObject:
   m_ObjectHideFlags: 0
@@ -2876,14 +3645,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622655343}
-  m_LocalRotation: {x: -0, y: -0.976296, z: -0, w: 0.2164397}
-  m_LocalPosition: {x: -6, y: 19, z: -8.7}
+  m_LocalRotation: {x: 0, y: -0.9848078, z: 0, w: 0.17364825}
+  m_LocalPosition: {x: 15, y: 2.5, z: 47}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 754361370}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -160, z: 0}
 --- !u!114 &622655345
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3043,6 +3812,7 @@ GameObject:
   - component: {fileID: 646118653}
   - component: {fileID: 646118655}
   - component: {fileID: 646118654}
+  - component: {fileID: 646118656}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -3114,6 +3884,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646118652}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &646118656
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646118652}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &666422823
 GameObject:
   m_ObjectHideFlags: 0
@@ -3125,6 +3909,7 @@ GameObject:
   - component: {fileID: 666422824}
   - component: {fileID: 666422826}
   - component: {fileID: 666422825}
+  - component: {fileID: 666422827}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -3196,6 +3981,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 666422823}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &666422827
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 666422823}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &667871476
 GameObject:
   m_ObjectHideFlags: 0
@@ -3207,6 +4006,7 @@ GameObject:
   - component: {fileID: 667871477}
   - component: {fileID: 667871479}
   - component: {fileID: 667871478}
+  - component: {fileID: 667871480}
   m_Layer: 0
   m_Name: SnowPineTreeMedium (1)
   m_TagString: AlpineTree
@@ -3279,6 +4079,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667871476}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &667871480
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667871476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &670829785
 GameObject:
   m_ObjectHideFlags: 0
@@ -3290,6 +4104,7 @@ GameObject:
   - component: {fileID: 670829786}
   - component: {fileID: 670829788}
   - component: {fileID: 670829787}
+  - component: {fileID: 670829789}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -3362,6 +4177,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 670829785}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &670829789
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 670829785}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &678639154
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,6 +4202,7 @@ GameObject:
   - component: {fileID: 678639155}
   - component: {fileID: 678639157}
   - component: {fileID: 678639156}
+  - component: {fileID: 678639158}
   m_Layer: 0
   m_Name: SnowPineTreeSmall (1)
   m_TagString: AlpineTree
@@ -3445,6 +4275,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678639154}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &678639158
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 678639154}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &690518492
 GameObject:
   m_ObjectHideFlags: 0
@@ -3456,6 +4300,7 @@ GameObject:
   - component: {fileID: 690518493}
   - component: {fileID: 690518495}
   - component: {fileID: 690518494}
+  - component: {fileID: 690518496}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -3528,6 +4373,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690518492}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &690518496
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690518492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &695165263
 GameObject:
   m_ObjectHideFlags: 0
@@ -3539,6 +4398,7 @@ GameObject:
   - component: {fileID: 695165264}
   - component: {fileID: 695165266}
   - component: {fileID: 695165265}
+  - component: {fileID: 695165267}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -3610,6 +4470,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 695165263}
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &695165267
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695165263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &705507993
 GameObject:
@@ -3740,6 +4614,103 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &777145665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 777145666}
+  - component: {fileID: 777145668}
+  - component: {fileID: 777145667}
+  - component: {fileID: 777145669}
+  m_Layer: 0
+  m_Name: SnowyRock (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &777145666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777145665}
+  m_LocalRotation: {x: 0.027455434, y: 0.44854134, z: 0.002471994, w: -0.89333683}
+  m_LocalPosition: {x: -27.91, y: -0.94, z: 10.11}
+  m_LocalScale: {x: 4.891881, y: 2.6582048, z: 3.5017045}
+  m_Children: []
+  m_Father: {fileID: 7752977581965713090}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: -2.939, y: 306.648, z: 1.16}
+--- !u!23 &777145667
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777145665}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f5d5cafe31c7e6d489ba5a6aae8b4989, type: 2}
+  - {fileID: 2100000, guid: bf14d197f136da64aac4f1792ea22dee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &777145668
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777145665}
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &777145669
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777145665}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &793436409
 GameObject:
   m_ObjectHideFlags: 0
@@ -3751,6 +4722,7 @@ GameObject:
   - component: {fileID: 793436410}
   - component: {fileID: 793436412}
   - component: {fileID: 793436411}
+  - component: {fileID: 793436413}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -3822,6 +4794,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 793436409}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &793436413
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793436409}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &803932894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,6 +4870,7 @@ GameObject:
   - component: {fileID: 828524469}
   - component: {fileID: 828524471}
   - component: {fileID: 828524470}
+  - component: {fileID: 828524472}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -3956,6 +4943,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 828524468}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &828524472
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828524468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &839077205
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,6 +4968,7 @@ GameObject:
   - component: {fileID: 839077206}
   - component: {fileID: 839077208}
   - component: {fileID: 839077207}
+  - component: {fileID: 839077209}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -4039,6 +5041,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 839077205}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &839077209
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839077205}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &844357671
 GameObject:
   m_ObjectHideFlags: 0
@@ -4050,6 +5066,7 @@ GameObject:
   - component: {fileID: 844357672}
   - component: {fileID: 844357674}
   - component: {fileID: 844357673}
+  - component: {fileID: 844357675}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -4122,6 +5139,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844357671}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &844357675
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 844357671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &847148516
 GameObject:
   m_ObjectHideFlags: 0
@@ -4133,6 +5164,7 @@ GameObject:
   - component: {fileID: 847148517}
   - component: {fileID: 847148519}
   - component: {fileID: 847148518}
+  - component: {fileID: 847148520}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -4204,6 +5236,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 847148516}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &847148520
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847148516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &886977095
 GameObject:
   m_ObjectHideFlags: 0
@@ -4215,6 +5261,7 @@ GameObject:
   - component: {fileID: 886977096}
   - component: {fileID: 886977098}
   - component: {fileID: 886977097}
+  - component: {fileID: 886977099}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -4285,6 +5332,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886977095}
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &886977099
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886977095}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &920301958
 GameObject:
@@ -4403,6 +5464,7 @@ GameObject:
   - component: {fileID: 1074891320}
   - component: {fileID: 1074891322}
   - component: {fileID: 1074891321}
+  - component: {fileID: 1074891323}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -4475,6 +5537,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074891319}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1074891323
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1074891319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1077494737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4486,6 +5562,7 @@ GameObject:
   - component: {fileID: 1077494738}
   - component: {fileID: 1077494740}
   - component: {fileID: 1077494739}
+  - component: {fileID: 1077494741}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -4557,6 +5634,20 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1077494737}
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1077494741
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077494737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1097735442
 GameObject:
@@ -4645,6 +5736,7 @@ GameObject:
   - component: {fileID: 1097958299}
   - component: {fileID: 1097958301}
   - component: {fileID: 1097958300}
+  - component: {fileID: 1097958302}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -4716,6 +5808,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097958298}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1097958302
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097958298}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1108638418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,6 +5833,7 @@ GameObject:
   - component: {fileID: 1108638419}
   - component: {fileID: 1108638421}
   - component: {fileID: 1108638420}
+  - component: {fileID: 1108638422}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -4798,6 +5905,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108638418}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1108638422
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108638418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1132412498
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,6 +5930,7 @@ GameObject:
   - component: {fileID: 1132412499}
   - component: {fileID: 1132412501}
   - component: {fileID: 1132412500}
+  - component: {fileID: 1132412502}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -4880,6 +6002,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132412498}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1132412502
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132412498}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1156710358
 GameObject:
   m_ObjectHideFlags: 0
@@ -4891,6 +6027,7 @@ GameObject:
   - component: {fileID: 1156710359}
   - component: {fileID: 1156710361}
   - component: {fileID: 1156710360}
+  - component: {fileID: 1156710362}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -4962,6 +6099,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156710358}
   m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1156710362
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156710358}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1171322135
 GameObject:
   m_ObjectHideFlags: 0
@@ -4973,6 +6124,7 @@ GameObject:
   - component: {fileID: 1171322136}
   - component: {fileID: 1171322138}
   - component: {fileID: 1171322137}
+  - component: {fileID: 1171322139}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -5045,6 +6197,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171322135}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1171322139
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1171322135}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1187443673
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,6 +6222,7 @@ GameObject:
   - component: {fileID: 1187443674}
   - component: {fileID: 1187443676}
   - component: {fileID: 1187443675}
+  - component: {fileID: 1187443677}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -5071,7 +6238,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187443673}
   m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 14.39, y: 3.405204, z: -12.22}
+  m_LocalPosition: {x: 14.39, y: 5.04, z: -12.22}
   m_LocalScale: {x: 1.2149706, y: 1.3523962, z: 1.2149706}
   m_Children: []
   m_Father: {fileID: 1679026005}
@@ -5127,6 +6294,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1187443673}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1187443677
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187443673}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1204379249
 GameObject:
   m_ObjectHideFlags: 0
@@ -5138,6 +6319,7 @@ GameObject:
   - component: {fileID: 1204379250}
   - component: {fileID: 1204379252}
   - component: {fileID: 1204379251}
+  - component: {fileID: 1204379253}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -5209,6 +6391,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204379249}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1204379253
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204379249}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1249694808
 GameObject:
   m_ObjectHideFlags: 0
@@ -5277,6 +6473,103 @@ Transform:
   m_Father: {fileID: 803932895}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 13.597, z: 0}
+--- !u!1 &1287013629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1287013630}
+  - component: {fileID: 1287013632}
+  - component: {fileID: 1287013631}
+  - component: {fileID: 1287013633}
+  m_Layer: 0
+  m_Name: SnowyRock (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1287013630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287013629}
+  m_LocalRotation: {x: -0.019981334, y: 0.4489364, z: 0.09663093, w: -0.8880987}
+  m_LocalPosition: {x: 17.6, y: 2.9, z: -4.6}
+  m_LocalScale: {x: 4.891881, y: 2.6582048, z: 3.5017045}
+  m_Children: []
+  m_Father: {fileID: 7752977581965713090}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: -2.939, y: 306.648, z: -10.943}
+--- !u!23 &1287013631
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287013629}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f5d5cafe31c7e6d489ba5a6aae8b4989, type: 2}
+  - {fileID: 2100000, guid: bf14d197f136da64aac4f1792ea22dee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1287013632
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287013629}
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1287013633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287013629}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1289444951
 GameObject:
   m_ObjectHideFlags: 0
@@ -5288,6 +6581,7 @@ GameObject:
   - component: {fileID: 1289444952}
   - component: {fileID: 1289444954}
   - component: {fileID: 1289444953}
+  - component: {fileID: 1289444955}
   m_Layer: 0
   m_Name: SnowyRock (3)
   m_TagString: Untagged
@@ -5359,6 +6653,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289444951}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1289444955
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289444951}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1297124542
 GameObject:
   m_ObjectHideFlags: 0
@@ -5370,6 +6678,7 @@ GameObject:
   - component: {fileID: 1297124543}
   - component: {fileID: 1297124545}
   - component: {fileID: 1297124544}
+  - component: {fileID: 1297124546}
   m_Layer: 0
   m_Name: SnowyRock (2)
   m_TagString: Untagged
@@ -5441,6 +6750,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297124542}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1297124546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297124542}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1300704186
 GameObject:
   m_ObjectHideFlags: 0
@@ -5483,6 +6806,7 @@ GameObject:
   - component: {fileID: 1300772734}
   - component: {fileID: 1300772736}
   - component: {fileID: 1300772735}
+  - component: {fileID: 1300772737}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -5555,6 +6879,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300772733}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1300772737
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1300772733}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1341271449
 GameObject:
   m_ObjectHideFlags: 0
@@ -5602,6 +6940,7 @@ GameObject:
   - component: {fileID: 1364917432}
   - component: {fileID: 1364917434}
   - component: {fileID: 1364917433}
+  - component: {fileID: 1364917435}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -5674,6 +7013,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364917431}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1364917435
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364917431}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1370253008
 GameObject:
   m_ObjectHideFlags: 0
@@ -5685,6 +7038,7 @@ GameObject:
   - component: {fileID: 1370253009}
   - component: {fileID: 1370253011}
   - component: {fileID: 1370253010}
+  - component: {fileID: 1370253012}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -5757,6 +7111,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370253008}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1370253012
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1370253008}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1371562002
 GameObject:
   m_ObjectHideFlags: 0
@@ -5800,6 +7168,7 @@ GameObject:
   - component: {fileID: 1380530815}
   - component: {fileID: 1380530817}
   - component: {fileID: 1380530816}
+  - component: {fileID: 1380530818}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -5872,6 +7241,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1380530814}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1380530818
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1380530814}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1392307821
 GameObject:
   m_ObjectHideFlags: 0
@@ -5883,6 +7266,7 @@ GameObject:
   - component: {fileID: 1392307822}
   - component: {fileID: 1392307824}
   - component: {fileID: 1392307823}
+  - component: {fileID: 1392307825}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -5955,6 +7339,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1392307821}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1392307825
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1392307821}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1401883381
 GameObject:
   m_ObjectHideFlags: 0
@@ -5966,6 +7364,7 @@ GameObject:
   - component: {fileID: 1401883382}
   - component: {fileID: 1401883384}
   - component: {fileID: 1401883383}
+  - component: {fileID: 1401883385}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -6038,6 +7437,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1401883381}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1401883385
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401883381}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1449939756
 GameObject:
   m_ObjectHideFlags: 0
@@ -6049,6 +7462,7 @@ GameObject:
   - component: {fileID: 1449939757}
   - component: {fileID: 1449939759}
   - component: {fileID: 1449939758}
+  - component: {fileID: 1449939760}
   m_Layer: 0
   m_Name: Rock (6)
   m_TagString: Untagged
@@ -6119,6 +7533,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449939756}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1449939760
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449939756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1459003328
 GameObject:
   m_ObjectHideFlags: 0
@@ -6130,6 +7558,7 @@ GameObject:
   - component: {fileID: 1459003329}
   - component: {fileID: 1459003331}
   - component: {fileID: 1459003330}
+  - component: {fileID: 1459003332}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -6145,7 +7574,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459003328}
   m_LocalRotation: {x: 6.1232336e-17, y: 0.00000004371139, z: 6.123234e-17, w: 1}
-  m_LocalPosition: {x: -0.35, y: 0.7776277, z: 6.27}
+  m_LocalPosition: {x: -2.49, y: 0.83, z: 22.05}
   m_LocalScale: {x: 0.3559916, y: 0.72716206, z: 0.42312387}
   m_Children: []
   m_Father: {fileID: 525928964}
@@ -6201,6 +7630,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459003328}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1459003332
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459003328}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1472389793
 GameObject:
   m_ObjectHideFlags: 0
@@ -6212,6 +7655,7 @@ GameObject:
   - component: {fileID: 1472389794}
   - component: {fileID: 1472389796}
   - component: {fileID: 1472389795}
+  - component: {fileID: 1472389797}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -6284,6 +7728,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472389793}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1472389797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472389793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1494814005
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,6 +7753,7 @@ GameObject:
   - component: {fileID: 1494814006}
   - component: {fileID: 1494814008}
   - component: {fileID: 1494814007}
+  - component: {fileID: 1494814009}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -6367,6 +7826,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494814005}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1494814009
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494814005}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1514963446
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,6 +7851,7 @@ GameObject:
   - component: {fileID: 1514963447}
   - component: {fileID: 1514963449}
   - component: {fileID: 1514963448}
+  - component: {fileID: 1514963450}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -6450,6 +7924,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514963446}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1514963450
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514963446}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1518720504
 GameObject:
   m_ObjectHideFlags: 0
@@ -6461,6 +7949,7 @@ GameObject:
   - component: {fileID: 1518720505}
   - component: {fileID: 1518720507}
   - component: {fileID: 1518720506}
+  - component: {fileID: 1518720508}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -6531,6 +8020,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518720504}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1518720508
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518720504}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1520284456
 GameObject:
   m_ObjectHideFlags: 0
@@ -6542,6 +8045,7 @@ GameObject:
   - component: {fileID: 1520284457}
   - component: {fileID: 1520284459}
   - component: {fileID: 1520284458}
+  - component: {fileID: 1520284460}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -6614,6 +8118,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520284456}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1520284460
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520284456}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1573630987
 GameObject:
   m_ObjectHideFlags: 0
@@ -6625,6 +8143,7 @@ GameObject:
   - component: {fileID: 1573630988}
   - component: {fileID: 1573630990}
   - component: {fileID: 1573630989}
+  - component: {fileID: 1573630991}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -6697,6 +8216,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573630987}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1573630991
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573630987}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1599633190
 GameObject:
   m_ObjectHideFlags: 0
@@ -6708,6 +8241,7 @@ GameObject:
   - component: {fileID: 1599633191}
   - component: {fileID: 1599633193}
   - component: {fileID: 1599633192}
+  - component: {fileID: 1599633194}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -6780,6 +8314,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1599633190}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1599633194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599633190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1603939277
 GameObject:
   m_ObjectHideFlags: 0
@@ -6791,6 +8339,7 @@ GameObject:
   - component: {fileID: 1603939278}
   - component: {fileID: 1603939280}
   - component: {fileID: 1603939279}
+  - component: {fileID: 1603939281}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -6862,6 +8411,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603939277}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1603939281
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603939277}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1616246106
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,6 +8436,7 @@ GameObject:
   - component: {fileID: 1616246107}
   - component: {fileID: 1616246109}
   - component: {fileID: 1616246108}
+  - component: {fileID: 1616246110}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -6945,6 +8509,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616246106}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1616246110
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616246106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1616322716
 GameObject:
   m_ObjectHideFlags: 0
@@ -6956,6 +8534,7 @@ GameObject:
   - component: {fileID: 1616322717}
   - component: {fileID: 1616322719}
   - component: {fileID: 1616322718}
+  - component: {fileID: 1616322720}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -7028,6 +8607,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1616322716}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1616322720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616322716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1620460900
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,6 +8632,7 @@ GameObject:
   - component: {fileID: 1620460901}
   - component: {fileID: 1620460903}
   - component: {fileID: 1620460902}
+  - component: {fileID: 1620460904}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -7110,6 +8704,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620460900}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1620460904
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620460900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1622406190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7121,6 +8729,7 @@ GameObject:
   - component: {fileID: 1622406191}
   - component: {fileID: 1622406193}
   - component: {fileID: 1622406192}
+  - component: {fileID: 1622406194}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -7192,6 +8801,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1622406190}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1622406194
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622406190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1679026004
 GameObject:
   m_ObjectHideFlags: 0
@@ -7240,6 +8863,7 @@ GameObject:
   - component: {fileID: 1681773377}
   - component: {fileID: 1681773379}
   - component: {fileID: 1681773378}
+  - component: {fileID: 1681773380}
   m_Layer: 0
   m_Name: Rock (3)
   m_TagString: Untagged
@@ -7310,6 +8934,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681773376}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1681773380
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681773376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1717168922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7357,6 +8995,7 @@ GameObject:
   - component: {fileID: 1732961105}
   - component: {fileID: 1732961107}
   - component: {fileID: 1732961106}
+  - component: {fileID: 1732961108}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -7429,6 +9068,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1732961104}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1732961108
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732961104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1758397202
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,6 +9093,7 @@ GameObject:
   - component: {fileID: 1758397203}
   - component: {fileID: 1758397205}
   - component: {fileID: 1758397204}
+  - component: {fileID: 1758397206}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -7511,6 +9165,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1758397202}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1758397206
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758397202}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1764511010
 GameObject:
   m_ObjectHideFlags: 0
@@ -7522,6 +9190,7 @@ GameObject:
   - component: {fileID: 1764511011}
   - component: {fileID: 1764511013}
   - component: {fileID: 1764511012}
+  - component: {fileID: 1764511014}
   m_Layer: 0
   m_Name: Rock (5)
   m_TagString: Untagged
@@ -7592,6 +9261,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1764511010}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1764511014
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764511010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1770743491
 GameObject:
   m_ObjectHideFlags: 0
@@ -7603,6 +9286,7 @@ GameObject:
   - component: {fileID: 1770743492}
   - component: {fileID: 1770743494}
   - component: {fileID: 1770743493}
+  - component: {fileID: 1770743495}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -7674,6 +9358,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770743491}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1770743495
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770743491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1791330922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7685,6 +9383,7 @@ GameObject:
   - component: {fileID: 1791330923}
   - component: {fileID: 1791330925}
   - component: {fileID: 1791330924}
+  - component: {fileID: 1791330926}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -7756,6 +9455,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791330922}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1791330926
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791330922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1791699968
 GameObject:
   m_ObjectHideFlags: 0
@@ -7767,6 +9480,7 @@ GameObject:
   - component: {fileID: 1791699969}
   - component: {fileID: 1791699971}
   - component: {fileID: 1791699970}
+  - component: {fileID: 1791699972}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -7839,6 +9553,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791699968}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1791699972
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791699968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1806330847
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,6 +9578,7 @@ GameObject:
   - component: {fileID: 1806330848}
   - component: {fileID: 1806330850}
   - component: {fileID: 1806330849}
+  - component: {fileID: 1806330851}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -7921,6 +9650,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806330847}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1806330851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806330847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1809255724
 GameObject:
   m_ObjectHideFlags: 0
@@ -7932,6 +9675,7 @@ GameObject:
   - component: {fileID: 1809255725}
   - component: {fileID: 1809255727}
   - component: {fileID: 1809255726}
+  - component: {fileID: 1809255728}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -8004,6 +9748,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1809255724}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1809255728
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809255724}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1818284568
 GameObject:
   m_ObjectHideFlags: 0
@@ -8015,6 +9773,7 @@ GameObject:
   - component: {fileID: 1818284569}
   - component: {fileID: 1818284571}
   - component: {fileID: 1818284570}
+  - component: {fileID: 1818284572}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -8086,6 +9845,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1818284568}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1818284572
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1818284568}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1820151353
 GameObject:
   m_ObjectHideFlags: 0
@@ -8097,6 +9870,7 @@ GameObject:
   - component: {fileID: 1820151354}
   - component: {fileID: 1820151356}
   - component: {fileID: 1820151355}
+  - component: {fileID: 1820151357}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -8168,6 +9942,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820151353}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1820151357
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820151353}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1824843840
 GameObject:
   m_ObjectHideFlags: 0
@@ -8179,6 +9967,7 @@ GameObject:
   - component: {fileID: 1824843841}
   - component: {fileID: 1824843843}
   - component: {fileID: 1824843842}
+  - component: {fileID: 1824843844}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -8250,6 +10039,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824843840}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1824843844
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824843840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1848677610
 GameObject:
   m_ObjectHideFlags: 0
@@ -8261,6 +10064,7 @@ GameObject:
   - component: {fileID: 1848677611}
   - component: {fileID: 1848677613}
   - component: {fileID: 1848677612}
+  - component: {fileID: 1848677614}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -8332,6 +10136,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1848677610}
   m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &1848677614
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848677610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &1866081472
 GameObject:
   m_ObjectHideFlags: 0
@@ -8400,6 +10218,7 @@ GameObject:
   - component: {fileID: 1875056057}
   - component: {fileID: 1875056059}
   - component: {fileID: 1875056058}
+  - component: {fileID: 1875056060}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -8472,6 +10291,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875056056}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1875056060
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875056056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1877338094
 GameObject:
   m_ObjectHideFlags: 0
@@ -8483,6 +10316,7 @@ GameObject:
   - component: {fileID: 1877338095}
   - component: {fileID: 1877338097}
   - component: {fileID: 1877338096}
+  - component: {fileID: 1877338098}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -8555,6 +10389,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877338094}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1877338098
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877338094}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1886507894
 GameObject:
   m_ObjectHideFlags: 0
@@ -8603,6 +10451,7 @@ GameObject:
   - component: {fileID: 1887907391}
   - component: {fileID: 1887907393}
   - component: {fileID: 1887907392}
+  - component: {fileID: 1887907394}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -8675,6 +10524,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887907390}
   m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1887907394
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887907390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1893904116
 GameObject:
   m_ObjectHideFlags: 0
@@ -8686,6 +10549,7 @@ GameObject:
   - component: {fileID: 1893904117}
   - component: {fileID: 1893904119}
   - component: {fileID: 1893904118}
+  - component: {fileID: 1893904120}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -8758,6 +10622,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1893904116}
   m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1893904120
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893904116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1901043148
 GameObject:
   m_ObjectHideFlags: 0
@@ -8801,6 +10679,7 @@ GameObject:
   - component: {fileID: 1904207742}
   - component: {fileID: 1904207744}
   - component: {fileID: 1904207743}
+  - component: {fileID: 1904207745}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -8873,6 +10752,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904207741}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1904207745
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904207741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1923964024
 GameObject:
   m_ObjectHideFlags: 0
@@ -8913,6 +10806,7 @@ MonoBehaviour:
   m_DirectionalLight: {fileID: 705507994}
   m_EnvironmentColor: {r: 1, g: 0.27058825, b: 0.27058825, a: 1}
   m_EnvironmentalOffsetPosition: {x: 0, y: 0, z: 0}
+  m_SnowfallSpawnPosition: {x: 0, y: 20, z: 0}
   m_SnowLevelValue: 0
   m_TagSelector: AlpineTree
   m_EnvironmentSpawnPositions: []
@@ -9053,6 +10947,7 @@ GameObject:
   - component: {fileID: 1995854275}
   - component: {fileID: 1995854277}
   - component: {fileID: 1995854276}
+  - component: {fileID: 1995854278}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -9067,13 +10962,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995854274}
-  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 9.16, y: 4.386512, z: -12.54}
+  m_LocalRotation: {x: -0.09515235, y: 0.9954628, z: 0.0000000065192594, w: 0.00000002980233}
+  m_LocalPosition: {x: 9.16, y: 6.87, z: -12.54}
   m_LocalScale: {x: 1.1145431, y: 1.5748892, z: 1.4123827}
   m_Children: []
   m_Father: {fileID: 1679026005}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: -10.92}
 --- !u!23 &1995854276
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9124,6 +11019,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1995854274}
   m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &1995854278
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995854274}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &2009529210
 GameObject:
   m_ObjectHideFlags: 0
@@ -9135,6 +11044,7 @@ GameObject:
   - component: {fileID: 2009529211}
   - component: {fileID: 2009529213}
   - component: {fileID: 2009529212}
+  - component: {fileID: 2009529214}
   m_Layer: 0
   m_Name: Rock (4)
   m_TagString: Untagged
@@ -9205,6 +11115,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2009529210}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &2009529214
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009529210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &2067188582
 GameObject:
   m_ObjectHideFlags: 0
@@ -9216,6 +11140,7 @@ GameObject:
   - component: {fileID: 2067188583}
   - component: {fileID: 2067188585}
   - component: {fileID: 2067188584}
+  - component: {fileID: 2067188586}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -9230,13 +11155,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067188582}
-  m_LocalRotation: {x: -0.14847705, y: -0.07673758, z: -0.018468013, w: 0.98576105}
-  m_LocalPosition: {x: -0.68, y: 0.41, z: 0.26}
+  m_LocalRotation: {x: -0.14341383, y: -0.600042, z: 0.129045, w: 0.77635664}
+  m_LocalPosition: {x: 14.88, y: 0.74, z: 9.22}
   m_LocalScale: {x: 1.2309117, y: 1.2309117, z: 1.2309117}
   m_Children: []
   m_Father: {fileID: 497916571}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: -17.191, y: -8.779, z: -0.817}
+  m_LocalEulerAnglesHint: {x: -3.889, y: -76.154, z: 21.922}
 --- !u!23 &2067188584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9287,6 +11212,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2067188582}
   m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &2067188586
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2067188582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &2091226232
 GameObject:
   m_ObjectHideFlags: 0
@@ -9298,6 +11237,7 @@ GameObject:
   - component: {fileID: 2091226233}
   - component: {fileID: 2091226235}
   - component: {fileID: 2091226234}
+  - component: {fileID: 2091226236}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -9369,6 +11309,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091226232}
   m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &2091226236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2091226232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &2097403656
 GameObject:
   m_ObjectHideFlags: 0
@@ -9380,6 +11334,7 @@ GameObject:
   - component: {fileID: 2097403657}
   - component: {fileID: 2097403659}
   - component: {fileID: 2097403658}
+  - component: {fileID: 2097403660}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -9451,6 +11406,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2097403656}
   m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &2097403660
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097403656}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &2129943395
 GameObject:
   m_ObjectHideFlags: 0
@@ -9462,6 +11431,7 @@ GameObject:
   - component: {fileID: 2129943396}
   - component: {fileID: 2129943398}
   - component: {fileID: 2129943397}
+  - component: {fileID: 2129943399}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -9476,13 +11446,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129943395}
-  m_LocalRotation: {x: -0.026694674, y: 0.964446, z: -0.10724556, w: -0.24006194}
-  m_LocalPosition: {x: -1.96, y: 0.16, z: 0.58}
+  m_LocalRotation: {x: -0.019119048, y: 0.935912, z: -0.08455968, w: 0.34139845}
+  m_LocalPosition: {x: 13.6, y: 0.49, z: 9.54}
   m_LocalScale: {x: 2.0373, y: 2.0373, z: 3.6318948}
   m_Children: []
   m_Father: {fileID: 497916571}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 12.69, y: 207.955, z: 0}
+  m_LocalEulerAnglesHint: {x: 8.35, y: 139.522, z: -5.424}
 --- !u!23 &2129943397
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9532,6 +11502,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129943395}
   m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
+--- !u!64 &2129943399
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129943395}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &2143913762
 GameObject:
   m_ObjectHideFlags: 0
@@ -9543,6 +11527,7 @@ GameObject:
   - component: {fileID: 2143913763}
   - component: {fileID: 2143913765}
   - component: {fileID: 2143913764}
+  - component: {fileID: 2143913766}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -9615,6 +11600,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143913762}
   m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
+--- !u!64 &2143913766
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143913762}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!4 &20779453734203038
 Transform:
   m_ObjectHideFlags: 0
@@ -9640,6 +11639,7 @@ GameObject:
   - component: {fileID: 2242229535586902942}
   - component: {fileID: 6157395292666007889}
   - component: {fileID: 2314296181480795731}
+  - component: {fileID: 33839675965548061}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -9647,6 +11647,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &33839675965548061
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 33839675965548060}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &87941386895201076
 GameObject:
   m_ObjectHideFlags: 0
@@ -9658,6 +11672,7 @@ GameObject:
   - component: {fileID: 3613836332531524503}
   - component: {fileID: 2191526597622889497}
   - component: {fileID: 2721026007669452536}
+  - component: {fileID: 87941386895201077}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -9665,6 +11680,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &87941386895201077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87941386895201076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &127521178242506115
 GameObject:
   m_ObjectHideFlags: 0
@@ -9714,6 +11743,7 @@ GameObject:
   - component: {fileID: 3470138735130752734}
   - component: {fileID: 3422028581611874616}
   - component: {fileID: 7203272413567007172}
+  - component: {fileID: 136720084354821740}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -9721,6 +11751,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &136720084354821740
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136720084354821739}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &273023809561399530
 GameObject:
   m_ObjectHideFlags: 0
@@ -9762,6 +11806,7 @@ GameObject:
   - component: {fileID: 7515054465405739252}
   - component: {fileID: 8417389267006175871}
   - component: {fileID: 5052005873741343650}
+  - component: {fileID: 350941386054838456}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -9769,6 +11814,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &350941386054838456
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350941386054838455}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &360461832988558049
 GameObject:
   m_ObjectHideFlags: 0
@@ -9780,6 +11839,7 @@ GameObject:
   - component: {fileID: 7537029876872254860}
   - component: {fileID: 750339062089656968}
   - component: {fileID: 4860711297104628919}
+  - component: {fileID: 360461832988558050}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -9787,6 +11847,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &360461832988558050
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360461832988558049}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &360932441937118715
 GameObject:
   m_ObjectHideFlags: 0
@@ -9798,6 +11872,7 @@ GameObject:
   - component: {fileID: 6579220245447609071}
   - component: {fileID: 5645816023271853150}
   - component: {fileID: 1090300785478966736}
+  - component: {fileID: 360932441937118716}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -9805,6 +11880,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &360932441937118716
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360932441937118715}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &381433593683019700
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9840,6 +11929,7 @@ GameObject:
   - component: {fileID: 5358373019479547792}
   - component: {fileID: 2966651895475412670}
   - component: {fileID: 7782342847209068474}
+  - component: {fileID: 574544079605419516}
   m_Layer: 0
   m_Name: SnowPineTreeLarge (1)
   m_TagString: AlpineTree
@@ -9847,6 +11937,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &574544079605419516
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574544079605419515}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &603396932524023654
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10218,6 +12322,7 @@ GameObject:
   - component: {fileID: 8620555639695767820}
   - component: {fileID: 2228272404653920924}
   - component: {fileID: 5086204217247789043}
+  - component: {fileID: 1204334335478555473}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -10225,6 +12330,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1204334335478555473
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204334335478555472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!4 &1218311269163279807
 Transform:
   m_ObjectHideFlags: 0
@@ -10233,7 +12352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6149303121430625449}
   m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 6.7273283, y: 3.001041, z: 1.5128688}
+  m_LocalPosition: {x: 8.8, y: 5.2, z: 1.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1499105428652674521}
@@ -10250,6 +12369,7 @@ GameObject:
   - component: {fileID: 3454367940266235003}
   - component: {fileID: 381433593683019700}
   - component: {fileID: 5000114344218803231}
+  - component: {fileID: 1226716070882811671}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -10257,6 +12377,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1226716070882811671
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226716070882811670}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &1263682266459565757
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10276,6 +12410,7 @@ GameObject:
   - component: {fileID: 8432868657972026888}
   - component: {fileID: 2038341732009981336}
   - component: {fileID: 4913461531411810551}
+  - component: {fileID: 1302502647453811797}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -10283,6 +12418,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1302502647453811797
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302502647453811796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!23 &1395439331263380221
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10336,6 +12485,7 @@ GameObject:
   - component: {fileID: 3266708031969031039}
   - component: {fileID: 571626364589596848}
   - component: {fileID: 5171879987401448219}
+  - component: {fileID: 1415228931741022227}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -10343,6 +12493,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1415228931741022227
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415228931741022226}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!4 &1499105428652674521
 Transform:
   m_ObjectHideFlags: 0
@@ -10415,6 +12579,7 @@ GameObject:
   - component: {fileID: 8726473918928049920}
   - component: {fileID: 7314106396105280907}
   - component: {fileID: 6290450472102272086}
+  - component: {fileID: 1553377554425585476}
   m_Layer: 0
   m_Name: PineTreeLarge (1)
   m_TagString: AlpineTree
@@ -10422,6 +12587,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1553377554425585476
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553377554425585475}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!33 &1648250487108073050
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10441,6 +12620,7 @@ GameObject:
   - component: {fileID: 6528753084116797908}
   - component: {fileID: 4174172369831856378}
   - component: {fileID: 8990985991656030718}
+  - component: {fileID: 1675120542467120064}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -10448,6 +12628,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1675120542467120064
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1675120542467120063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &1696988032714950386
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10502,6 +12696,7 @@ GameObject:
   - component: {fileID: 613700849416950490}
   - component: {fileID: 4821882057251921941}
   - component: {fileID: 4001371679726313239}
+  - component: {fileID: 1720809689881253721}
   m_Layer: 0
   m_Name: SnowPineTreeTiny
   m_TagString: AlpineTree
@@ -10509,6 +12704,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1720809689881253721
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720809689881253720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!4 &1790732861619028098
 Transform:
   m_ObjectHideFlags: 0
@@ -10534,6 +12743,7 @@ GameObject:
   - component: {fileID: 8498985180339787355}
   - component: {fileID: 7595374876795866320}
   - component: {fileID: 6603674906209328397}
+  - component: {fileID: 1830265272624651801}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -10541,6 +12751,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1830265272624651801
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1830265272624651800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1875053273470020190
 GameObject:
   m_ObjectHideFlags: 0
@@ -10552,6 +12776,7 @@ GameObject:
   - component: {fileID: 3154866092501299947}
   - component: {fileID: 3791258930089946381}
   - component: {fileID: 8653410694390382065}
+  - component: {fileID: 1875053273470020191}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -10559,6 +12784,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1875053273470020191
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875053273470020190}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &1885692498987399332
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10611,6 +12850,7 @@ GameObject:
   - component: {fileID: 3010324070438627234}
   - component: {fileID: 399097303243012140}
   - component: {fileID: 4477487916045626061}
+  - component: {fileID: 1934387351082882818}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -10618,6 +12858,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &1934387351082882818
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1934387351082882817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &1966125965863359159
 GameObject:
   m_ObjectHideFlags: 0
@@ -10686,6 +12940,7 @@ GameObject:
   - component: {fileID: 8320635095044477369}
   - component: {fileID: 1263682266459565757}
   - component: {fileID: 6382878434856142978}
+  - component: {fileID: 2224957527179839189}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -10693,6 +12948,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2224957527179839189
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2224957527179839188}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!33 &2228272404653920924
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10914,6 +13183,7 @@ GameObject:
   - component: {fileID: 8025957768925588650}
   - component: {fileID: 871032974169615748}
   - component: {fileID: 5277447284462183552}
+  - component: {fileID: 2505159202380086978}
   m_Layer: 0
   m_Name: SnowPineTreeLarge (3)
   m_TagString: AlpineTree
@@ -10921,6 +13191,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2505159202380086978
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2505159202380086977}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &2567672988943650111
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11071,13 +13355,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9078984121290530048}
-  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 5.3294754, y: 3.0070598, z: 4.3905478}
+  m_LocalRotation: {x: -0.014667137, y: 0.9998841, z: -0.00008492663, w: -0.004084915}
+  m_LocalPosition: {x: 6.743, y: 5.159, z: 6.018}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1499105428652674521}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.017, y: -179.532, z: -1.681}
 --- !u!4 &2784447061598846395
 Transform:
   m_ObjectHideFlags: 0
@@ -11165,6 +13449,7 @@ GameObject:
   - component: {fileID: 8632740535513192960}
   - component: {fileID: 7123082665179503793}
   - component: {fileID: 2567672988943650111}
+  - component: {fileID: 2990944408842802453}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -11172,6 +13457,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &2990944408842802453
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2990944408842802452}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!4 &3010324070438627234
 Transform:
   m_ObjectHideFlags: 0
@@ -11230,6 +13529,7 @@ GameObject:
   - component: {fileID: 8460129771703893252}
   - component: {fileID: 6953426995639794613}
   - component: {fileID: 2380143649656072763}
+  - component: {fileID: 3108667799291621905}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -11237,6 +13537,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3108667799291621905
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3108667799291621904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &3129264060928618591
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11270,6 +13584,7 @@ GameObject:
   - component: {fileID: 7544513869875003988}
   - component: {fileID: 816810713947766625}
   - component: {fileID: 2664737334207394898}
+  - component: {fileID: 3187058750728325386}
   m_Layer: 0
   m_Name: Rock (2)
   m_TagString: Untagged
@@ -11277,6 +13592,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3187058750728325386
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3187058750728325385}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!23 &3227668432820039987
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11411,6 +13740,7 @@ GameObject:
   - component: {fileID: 7103676252650305395}
   - component: {fileID: 135734828368262749}
   - component: {fileID: 4956773942165913433}
+  - component: {fileID: 3400394735644026137}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -11418,6 +13748,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &3400394735644026137
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3400394735644026136}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &3407619108260675589
 GameObject:
   m_ObjectHideFlags: 0
@@ -11707,6 +14051,7 @@ GameObject:
   - component: {fileID: 6566793189860698595}
   - component: {fileID: 3634365047018635891}
   - component: {fileID: 7644405146926087964}
+  - component: {fileID: 4338397462463443904}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -11714,6 +14059,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4338397462463443904
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4338397462463443903}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &4356592697223186401
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11733,6 +14092,7 @@ GameObject:
   - component: {fileID: 5784116727560609363}
   - component: {fileID: 5539158487995204824}
   - component: {fileID: 9084830478037931269}
+  - component: {fileID: 4382375069588248081}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -11740,6 +14100,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4382375069588248081
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4382375069588248080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &4477487916045626061
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11845,6 +14219,7 @@ GameObject:
   - component: {fileID: 132327971044877200}
   - component: {fileID: 3129264060928618591}
   - component: {fileID: 7729733049827740660}
+  - component: {fileID: 4548729099410008318}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -11852,6 +14227,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4548729099410008318
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4548729099410008317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &4569404262257480274
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12046,6 +14435,7 @@ GameObject:
   - component: {fileID: 4153449284044148964}
   - component: {fileID: 1648250487108073050}
   - component: {fileID: 7956815681604247767}
+  - component: {fileID: 4971434887987671134}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -12053,6 +14443,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4971434887987671134
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4971434887987671133}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &5000114344218803231
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12189,6 +14593,7 @@ GameObject:
   - component: {fileID: 762892981414246681}
   - component: {fileID: 7629448438429857847}
   - component: {fileID: 3227668432820039987}
+  - component: {fileID: 5130624768368143219}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -12196,6 +14601,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5130624768368143219
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5130624768368143218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!4 &5158161083338204404
 Transform:
   m_ObjectHideFlags: 0
@@ -12462,6 +14881,7 @@ GameObject:
   - component: {fileID: 2373393917675756906}
   - component: {fileID: 4356592697223186401}
   - component: {fileID: 1061019488411981372}
+  - component: {fileID: 5511245263178700074}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -12469,6 +14889,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5511245263178700074
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5511245263178700073}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!33 &5537730988983656163
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12573,6 +15007,7 @@ GameObject:
   - component: {fileID: 2481820835655910445}
   - component: {fileID: 3868817618890016192}
   - component: {fileID: 6606008686886673621}
+  - component: {fileID: 5764089882115215498}
   m_Layer: 0
   m_Name: Rock (1)
   m_TagString: Untagged
@@ -12580,6 +15015,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5764089882115215498
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5764089882115215497}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!4 &5784116727560609363
 Transform:
   m_ObjectHideFlags: 0
@@ -12629,6 +15078,7 @@ GameObject:
   - component: {fileID: 7017728363361425980}
   - component: {fileID: 5561043840536118706}
   - component: {fileID: 8540531886556632915}
+  - component: {fileID: 5944039047115041440}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -12636,6 +15086,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &5944039047115041440
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5944039047115041439}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!33 &5955777582467092470
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12655,6 +15119,7 @@ GameObject:
   - component: {fileID: 6959972193494876525}
   - component: {fileID: 5537730988983656163}
   - component: {fileID: 8607262439997066242}
+  - component: {fileID: 6019143448934445519}
   m_Layer: 0
   m_Name: SnowPineTreeMedium (1)
   m_TagString: AlpineTree
@@ -12662,6 +15127,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6019143448934445519
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6019143448934445518}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &6149303121430625449
 GameObject:
   m_ObjectHideFlags: 0
@@ -12699,6 +15178,7 @@ GameObject:
   - component: {fileID: 1790732861619028098}
   - component: {fileID: 8912236623911666092}
   - component: {fileID: 4505106257207920808}
+  - component: {fileID: 6159803991054684906}
   m_Layer: 0
   m_Name: SnowPineTreeLarge (2)
   m_TagString: AlpineTree
@@ -12706,6 +15186,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6159803991054684906
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6159803991054684905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &6216524515014933322
 GameObject:
   m_ObjectHideFlags: 0
@@ -12717,6 +15211,7 @@ GameObject:
   - component: {fileID: 4313883852136016935}
   - component: {fileID: 6425699172465398563}
   - component: {fileID: 1166890900282946844}
+  - component: {fileID: 6216524515014933323}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -12724,6 +15219,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6216524515014933323
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6216524515014933322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &6290450472102272086
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12777,6 +15286,7 @@ GameObject:
   - component: {fileID: 4255831299767310687}
   - component: {fileID: 2852331952406578132}
   - component: {fileID: 1538334070787559945}
+  - component: {fileID: 6312882742584299805}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -12784,6 +15294,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6312882742584299805
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6312882742584299804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &6331591523255312283
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13095,6 +15619,7 @@ GameObject:
   - component: {fileID: 7119111873593194242}
   - component: {fileID: 5221734669488760013}
   - component: {fileID: 603396932524023654}
+  - component: {fileID: 6645729845259222128}
   m_Layer: 0
   m_Name: SnowRock
   m_TagString: Untagged
@@ -13102,6 +15627,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6645729845259222128
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6645729845259222127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2849245669726965766, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!1 &6858736564426843949
 GameObject:
   m_ObjectHideFlags: 0
@@ -13113,6 +15652,7 @@ GameObject:
   - component: {fileID: 4052072585874783601}
   - component: {fileID: 5869860267635480289}
   - component: {fileID: 651989418038635406}
+  - component: {fileID: 6858736564426843950}
   m_Layer: 0
   m_Name: Rock
   m_TagString: Untagged
@@ -13120,6 +15660,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &6858736564426843950
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6858736564426843949}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4013275331872712965, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!33 &6906215502229694977
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13359,6 +15913,7 @@ GameObject:
   - component: {fileID: 4058905332402183805}
   - component: {fileID: 3261664770002000076}
   - component: {fileID: 7799024923355007298}
+  - component: {fileID: 7356769859799109994}
   m_Layer: 0
   m_Name: SnowyRock
   m_TagString: Untagged
@@ -13366,6 +15921,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7356769859799109994
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7356769859799109993}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4633772050225557424, guid: eb8ee7cb4e89ac043b7ebe6af54d5697, type: 3}
 --- !u!4 &7451147775518784179
 Transform:
   m_ObjectHideFlags: 0
@@ -13373,13 +15942,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4843437478529311159}
-  m_LocalRotation: {x: -6.123234e-17, y: 1, z: 6.123234e-17, w: -3.7493994e-33}
-  m_LocalPosition: {x: 5.3294754, y: 3.0070598, z: -1.3574336}
+  m_LocalRotation: {x: -0.014667137, y: 0.9998841, z: -0.00008492663, w: -0.004084915}
+  m_LocalPosition: {x: 6.761, y: 5.156, z: -2.579}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1499105428652674521}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.017, y: -179.532, z: -1.681}
 --- !u!1 &7464025853684455558
 GameObject:
   m_ObjectHideFlags: 0
@@ -13391,6 +15960,7 @@ GameObject:
   - component: {fileID: 3040062665088256749}
   - component: {fileID: 5280207858423811011}
   - component: {fileID: 895324254154523335}
+  - component: {fileID: 7464025853684455559}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -13398,6 +15968,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7464025853684455559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7464025853684455558}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!4 &7515054465405739252
 Transform:
   m_ObjectHideFlags: 0
@@ -13524,6 +16108,7 @@ GameObject:
   - component: {fileID: 6443634564908360859}
   - component: {fileID: 8440680647958887189}
   - component: {fileID: 5659205300386212340}
+  - component: {fileID: 7670441303771583545}
   m_Layer: 0
   m_Name: SnowPineTreeMedium
   m_TagString: AlpineTree
@@ -13531,6 +16116,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7670441303771583545
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7670441303771583544}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7219665303350106102, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &7724436979852910864
 GameObject:
   m_ObjectHideFlags: 0
@@ -13542,6 +16141,7 @@ GameObject:
   - component: {fileID: 8383292795815748754}
   - component: {fileID: 4483889667346699869}
   - component: {fileID: 5428112563043772767}
+  - component: {fileID: 7724436979852910865}
   m_Layer: 0
   m_Name: SnowPineTreeSmall1
   m_TagString: AlpineTree
@@ -13549,6 +16149,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7724436979852910865
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7724436979852910864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &7729733049827740660
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13615,6 +16229,10 @@ Transform:
   - {fileID: 1289444952}
   - {fileID: 1449939757}
   - {fileID: 439421109}
+  - {fileID: 615023236}
+  - {fileID: 481109643}
+  - {fileID: 1287013630}
+  - {fileID: 777145666}
   m_Father: {fileID: 1341271450}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 5.589, y: 52.02, z: -2.741}
@@ -13714,6 +16332,7 @@ GameObject:
   - component: {fileID: 20779453734203038}
   - component: {fileID: 2077168802379494421}
   - component: {fileID: 3323463451250451912}
+  - component: {fileID: 7844654416824428254}
   m_Layer: 0
   m_Name: PineTreeLarge
   m_TagString: AlpineTree
@@ -13721,6 +16340,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7844654416824428254
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7844654416824428253}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2007191455954588570, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &7874577287965742165
 GameObject:
   m_ObjectHideFlags: 0
@@ -13732,6 +16365,7 @@ GameObject:
   - component: {fileID: 1158005631878100204}
   - component: {fileID: 4569404262257480274}
   - component: {fileID: 5177523659735352543}
+  - component: {fileID: 7874577287965742166}
   m_Layer: 0
   m_Name: PineTreeMedium
   m_TagString: AlpineTree
@@ -13739,6 +16373,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7874577287965742166
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7874577287965742165}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1473175958220189256, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!1 &7947183875592357357
 GameObject:
   m_ObjectHideFlags: 0
@@ -13750,6 +16398,7 @@ GameObject:
   - component: {fileID: 275396039236752000}
   - component: {fileID: 6999494212036046212}
   - component: {fileID: 2899817519321566139}
+  - component: {fileID: 7947183875592357358}
   m_Layer: 0
   m_Name: SnowPineTreeSmall
   m_TagString: AlpineTree
@@ -13757,6 +16406,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &7947183875592357358
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7947183875592357357}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8445350605745698295, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &7956815681604247767
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13840,6 +16503,7 @@ GameObject:
   - component: {fileID: 4648518002756384231}
   - component: {fileID: 6906215502229694977}
   - component: {fileID: 1395439331263380221}
+  - component: {fileID: 8164754016352775507}
   m_Layer: 0
   m_Name: PineTreeSmall
   m_TagString: AlpineTree
@@ -13847,6 +16511,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8164754016352775507
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8164754016352775506}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5747070809571897957, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!4 &8225486437237919486
 Transform:
   m_ObjectHideFlags: 0
@@ -13900,6 +16578,7 @@ GameObject:
   - component: {fileID: 4110397165583519007}
   - component: {fileID: 6520219955457182769}
   - component: {fileID: 2258480690818417973}
+  - component: {fileID: 8407907579171315573}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -13907,6 +16586,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8407907579171315573
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8407907579171315572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!33 &8417389267006175871
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14162,6 +16855,7 @@ GameObject:
   - component: {fileID: 3589445691631406808}
   - component: {fileID: 5955777582467092470}
   - component: {fileID: 1696988032714950386}
+  - component: {fileID: 8968275179240021172}
   m_Layer: 0
   m_Name: SnowPineTreeLarge
   m_TagString: AlpineTree
@@ -14169,6 +16863,20 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &8968275179240021172
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8968275179240021171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9111974332656276875, guid: 52bc3440c9b330843ae5e04ae5f7d6a3, type: 3}
 --- !u!23 &8990985991656030718
 MeshRenderer:
   m_ObjectHideFlags: 0
