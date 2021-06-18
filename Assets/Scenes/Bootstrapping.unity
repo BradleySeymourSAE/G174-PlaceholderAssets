@@ -283,47 +283,27 @@ MonoBehaviour:
     Category: 0
     loop: 1
     awake: 1
-    volume: 0.25
+    volume: 0.2
     pitch: 1
     length: 0
     MaximumLength: 0
-    clip: {fileID: 8300000, guid: b3cf4b2fa1182824ba2f0c17f5845224, type: 3}
+    clip: {fileID: 8300000, guid: 9b10d9011616dd448a4627a3bbc35105, type: 3}
     source: {fileID: 0}
   - name: Wind Ambience
     Category: 1
-    loop: 0
+    loop: 1
     awake: 0
-    volume: 0.2
+    volume: 0.15
     pitch: 1
     length: 0
     MaximumLength: 0
     clip: {fileID: 8300000, guid: d87bf7f601f98f74a817245a7b19c089, type: 3}
     source: {fileID: 0}
-  - name: UI Move
-    Category: 4
-    loop: 0
-    awake: 0
-    volume: 0.6
-    pitch: 1
-    length: 0
-    MaximumLength: 0
-    clip: {fileID: 8300000, guid: 0bba35a9107788b4fbed0ba3113a7b96, type: 3}
-    source: {fileID: 0}
   - name: UI Menu Transition
     Category: 5
     loop: 0
     awake: 0
-    volume: 0.6
-    pitch: 1
-    length: 0
-    MaximumLength: 0
-    clip: {fileID: 8300000, guid: 0c29c9ac877f31b40bfd67407bd4fb5b, type: 3}
-    source: {fileID: 0}
-  - name: UI Selected
-    Category: 0
-    loop: 0
-    awake: 0
-    volume: 0.6
+    volume: 0.5
     pitch: 1
     length: 0
     MaximumLength: 0
