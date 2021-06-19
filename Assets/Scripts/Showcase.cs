@@ -31,6 +31,11 @@ public class Showcase : MonoBehaviour
 	public static UnityEvent ToggleEnvironmentChange = new UnityEvent();
 	public GameObject snowSystemPrefab;
 	public GameObject firePrefab;
+	public GameObject playerPrefab;
+	
+	[SerializeField]
+	protected Transform m_DollyCamera;
+
 
 
 	[Range(0f, 1f)]
@@ -56,6 +61,9 @@ public class Showcase : MonoBehaviour
 	[SerializeField]
 	protected Vector3 m_SnowfallSpawnPosition = new Vector3(0, 20, 0);
 
+	[SerializeField]
+	protected Vector3 m_PlayerSpawnPosition = new Vector3(15, 2.5f, 47);
+
 
 	[SerializeField] 
 	private float m_SnowLevelValue = 0;
@@ -66,7 +74,10 @@ public class Showcase : MonoBehaviour
 
 	[SerializeField] 
 	protected List<Transform> m_EnvironmentSpawnPositions = new List<Transform>();
-	
+
+	[SerializeField]
+	protected Transform m_Player;
+
 	[SerializeField]
 	protected List<GameObject> m_SpawnedEffects = new List<GameObject>();
 
@@ -123,12 +134,27 @@ public class Showcase : MonoBehaviour
 			m_EnvironmentSpawnPositions.Add(s_SpawnPosition.transform);
 		}
 		m_EnvironmentChanged = false;
+
+		StartCoroutine(SpawnPlayer());
 	}
 
 	private void Update()
 	{
 		UpdateSnowfallLevel();
 		
+	}
+
+	private IEnumerator SpawnPlayer()
+	{
+
+		yield return new WaitForSeconds(5f);
+
+		Destroy(m_DollyCamera.gameObject);
+
+		var player = Instantiate(playerPrefab, m_PlayerSpawnPosition, playerPrefab.transform.rotation);
+		m_Player = player.transform;
+
+		yield return null;
 	}
 
 	private void UpdateSnowfallLevel()
